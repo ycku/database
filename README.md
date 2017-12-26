@@ -1,3 +1,4 @@
-# My Awesome Book
+# Database 資料庫
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+本書為資料庫知識及系統的筆記，整理各種資料庫相關的內容，也進行文章編譯。
+
