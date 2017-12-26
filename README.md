@@ -4,3 +4,5 @@
 
 請使用 GitBook 的討論區一起交流。
 
+本書授權方式為 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh_TW)。
+
