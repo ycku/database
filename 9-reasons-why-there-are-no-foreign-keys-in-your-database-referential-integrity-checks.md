@@ -32,11 +32,11 @@ Reasons presented below are **in no way encouragement not to use foreign key con
 
 ### 2. 老舊資料
 
-Many databases when they were designed required to store legacy data from the older databases and sources which may not have been so strict on data quality and integrity. To be able to contain old dirty data architect had a choice of a\) cleansing and transforming legacy data \(expensive exercise\) or b\) give up on enforcing referential integrity on the database level. Some packaged ERP and CRM applications also use this approach.
+許多資料庫在設計時需要儲存來自舊資料庫和來源的殘留資料，這些資料可能對資料品質和完整性沒有那麼嚴格。為了能夠容納又舊又髒資料的架構師，可以選擇，a：清理和轉換殘留資料（昂貴的練習），或者，b：放棄在資料庫級別上強制維護參照完整性。 一些整合好的 ERP 和 CRM 應用服務也會使用這種方法。
 
 ### 3. 資料表重建
 
-Some databases, like data warehouses, staging or interfacing databases, require for the data to be often reloaded from external sources. This causes the data to be inconsistent at the time of reloading \(child table may be fully loaded while parent table is empty\). That could be bypassed by disabling keys for the time of the reload. However, this introduces additional logic and complexity and another point of failure. And as mentioned above, has a negative effect on performance. Often, costs outweigh benefits and developers just don't bother with the keys.
+一些資料庫，如資料倉儲，分段或中介資料庫，需要經常從外部資料來源重新載入資料。這會導致重新載入時資料的不一致（在父資料表為空的情況下，子資料表可能已載入）。這可以通過在重新載入時禁用外部鍵來繞過。然而，這會引入了額外的邏輯和複雜性，以及另一個可能的錯誤點。如上所述，對效能也會有負面影響。通常，成本大於效益，但開發人員不需要擔心細節。
 
 ### 4. 有更高層級的開發管理
 
