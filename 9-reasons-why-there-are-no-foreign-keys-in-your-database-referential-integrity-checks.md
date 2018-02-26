@@ -40,11 +40,11 @@ Reasons presented below are **in no way encouragement not to use foreign key con
 
 ### 4. 有更高層級的開發管理
 
-Some applications use programming frameworks that make another logical layer on top of physical databases. Developers don't use\_insert\_or\_update\_statements to modify data but use an API, or the framework does everything in the background. This is the case in**ORM**\(Object-Relational Mapping\) frameworks or frameworks like**Ruby on Rails**. Those tools take care of the referential integrity and together with RDBMS create a higher level database engine. Those frameworks can create database tables themselves and not always create foreign keys. Developers using such tools, rarely interfere with automatically generated schema and leave it without the keys.
+有些應用程式具有程式設計層的框架，在實體資料庫上建立了另一個邏輯層。開發人員不使用 INSERT 或 UPDATE 語句來修改資料，他們使用 API，或者採用在後台執行操作的框架。像是 ORM（Object-Relational Mapping）框架或 Ruby on Rails 框架就是這種情況。這些工具負責維護資料參照的完整性，並與 RDBMS 一起建立更高等級的資料庫引擎。這些框架可以自己建立資料庫資料表，而通常不建立外部鍵。使用這些工具的開發人員很少干預自動產生的資料庫結構，並且也不使用主鍵。
 
 ### 5. 跨資料庫關連
 
-This one is not the right reason why database doesn't have foreign keys but why it might be missing some. Some databases span across more physical databases and even engines, and it might not be technically possible to create keys that span across databases. SQL Server is a good example here - it doesn't enable creating keys across two databases on the same server. And this architecture is common in larger scale systems.
+這並不是資料庫不使用外部鍵的正確理由，但也確實是某種因素。有些資料庫跨越更多實體資料庫甚至引擎，並且建立跨越資料庫的主鍵在技術上可能不太可行。 SQL Server就是一個很好的例子 - 它不能在同一台服務器上的兩個資料庫上建立主鍵。這種架構在大型系統中很常見。
 
 ### 6. 資料庫可移植考量
 
