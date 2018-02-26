@@ -48,23 +48,23 @@ Reasons presented below are **in no way encouragement not to use foreign key con
 
 ### 6. 資料庫可移植考量
 
-Similar to the previous one, some applications were designed to be database platform \(DBMS\) agnostic and to be able to work on various databases like Oracle, SQL Server, DB/2 or Sybase. This is what I've read about**PeopleSoft**\(currently owned by Oracle\). Designers didn't want to tie to any particular platform and pushed all the logic to the application layer leaving database layer as plain as possible.
+與前一個類似，一些應用程式設計上假設資料庫平台（DBMS）是不可知的，並能夠在 Oracle、SQL Server、DB2 或 Sybase 等各種資料庫上運作。這是我讀過的關於PeopleSoft（目前由Oracle擁有）的內容。設計人員不想被綁定在任何特定的平台，並將所有邏輯推送到應用程式層，盡可能簡單地維持資料庫層就好。
 
 ### 7. 改變的可能性
 
-Sticking with Oracle, another story I've heard about its applications, this time its own child -**Oracle E-Business Suite**- is that it was designed to be as customizable as possible. Oracle provided a solid foundation and left implementation teams elasticity to decide on as many aspects of the design as possible. At least this is what\_they\_say. Maybe the reason was the same as in the previous point or was it the next one:
+與 Oracle 保持緊密聯繫，我聽說過有關其應用程式的另一個故事，這次是它自己的孩子 - Oracle 電子商務套件 - 就是它被設計為盡可能客製化。Oracle 提供了堅實的基礎，使實施團隊具有彈性，盡可能彈性地確定設計的各個方面。至少這是他們自己說的。也許原因與前一點相同，或者是下一個：
 
 ### 8. 簡易的軟體工程管理
 
-When you are creating a database, and you want to store data you need to create some tables and columns. This is a minimum. But you don't have to create structures that keep data consistency, like primary, unique, foreign keys or constraints. It requires some effort and has no immediate benefit. Some of the architects and DBAs just ignore that part.
+在建立資料庫時，如果要儲存資料，則需要建立一些資料表和資料列。這是最低的限度。但是，你不必建立保持資料一致性的結構，如主鍵、唯一鍵、外部鍵或限制條件。這需要一些努力，但沒有直接的好處。一些架構師和資料庫管理員只是忽略了這一部分。
 
 ### 9. 隱藏資料關連模型
 
-Maybe this one is far fetched, but maybe sometimes it is because people don't want other to have it too easy and know too much. People, in general, want to be needed and irreplaceable. A perfect self-explanatory design might make them obsolete. But this is just my theory.
+也許這是一個遙不可及的過程，但也許有時候是因為人們不希望別人太容易就知道太多。一般來說，人們希望被需要和不可替代。完美且不言自明的設計可能會使它們過時。但這只是我的理論。
 
 ## 結論 {#toc_2}
 
-I hope I managed to present sensible reasons why foreign keys aren't used as widely as many might expect. If you know any other cause or don't agree with my arguments, please comment.
+我希望我能夠提出明智的理由，為什麼外部鍵的使用並不像許多人想像中的那麼廣泛。如果您知道其他原因或不同意我的論點，請發表評論。
 
 ## 延伸資訊 {#toc_3}
 
