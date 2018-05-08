@@ -6,7 +6,7 @@
 
 資料庫的選擇是一個很重要的問題，只有最適合的資料庫，而沒有最好的資料庫。
 
-這裡除了整理一些觀念之外，也包含執行範例，未特別說明的部份將以 [PostgreSQL](https://www.postgresql.org) 為主要的範例系統。
+這裡除了整理一些觀念之外，也包含執行範例，未特別說明的部份將以 [PostgreSQL](https://www.postgresql.org) 為主要的範例系統。章節之間沒有特定的先後次序，只是方便整理及閱讀而已。
 
 本書授權方式為 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh_TW)。
 
