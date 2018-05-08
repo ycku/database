@@ -1,4 +1,4 @@
-# 資料庫系統分類
+# Database Models
 
 ## Relational Database
 
@@ -11,6 +11,4 @@
 ## Time series Database
 
 ## Multi-model Database
-
-
 
