@@ -10,6 +10,8 @@
 
 本書授權方式為 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh_TW)。
 
+先看看什麼是資料庫呢：[What is Database & SQL? ](https://youtu.be/FR4QIeZaPeM)
+
 1. People, Database, Data
 2. 資料庫系統分類
 3. 開源資料庫系統生態
