@@ -1,6 +1,6 @@
 # People, Database, Data
 
-[https://www.youtube.com/embed/FR4QIeZaPeM?rel=0&showinfo=0](https://www.youtube.com/embed/FR4QIeZaPeM?rel=0&showinfo=0)
+[https://www.youtube.com/embed/FR4QIeZaPeM](https://www.youtube.com/embed/FR4QIeZaPeM?rel=0&showinfo=0)
 
 在學習資料庫系統之前，必須要先建立的觀念：資料庫系統永遠不會單獨存在。所以在應用各種資料庫知識與技術時，一起考慮這三件事，才能使整個資料解決方案成為有意義的存在。
 
